@@ -1,6 +1,7 @@
-public class Employee extends Member {
-    public void specialization(String spl)
-    {
-        System.out.println(spl);
+public class Employee {
+    public void detials(String name,int year,String address,int salary){
+        System.out.println(name+"\t\t "+year+"\t\t\t"+address);
+
     }
+
 }

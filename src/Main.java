@@ -1,20 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        Employee e1=new Employee();
-        e1.name("Shiny");
-        e1.age(20);
-        e1.phnum("9940890784");
-        e1.address("Chennai");
-        e1.printsalary(25000);
-        e1.specialization("Marketing");
+        System.out.println("Name\tYear of joining\t\tAddress");
 
-        Manager m1=new Manager();
-        m1.name("akalya");
-        m1.age(25);
-        m1.phnum("9876543210");
-        m1.address("kerala");
-        m1.printsalary(50000);
-        m1.department("Artificial Intelligence");
+        Employee e1=new Employee();
+        e1.detials("Robert",1994,"64c-Wallsmart",50000);
+        Employee e2=new Employee();
+        e2.detials("Sam  ",2000,"68D-Wallsmart",20000);
+        Employee e3=new Employee();
+        e3.detials("John",1999,"26B-Wallsmart",60000);
+
 
     }
 }
